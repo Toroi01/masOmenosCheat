@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+  
+    "name": "masOmenos_hack",
+    "version": "1.0.0",
+    "content_scripts":[{
+      "matches":[
+        "*://*.masomenos.app/*"
+      ],
+      "js": ["background.js"]
+    }]
+  }
